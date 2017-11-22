@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/11/22 0022
- * Time: 上午 9:30
- */
+namespace app\index\model;
+use think\Model;
+class User extends  Model{
+     protected  $pk ='user_id'; //设置主键
+}
